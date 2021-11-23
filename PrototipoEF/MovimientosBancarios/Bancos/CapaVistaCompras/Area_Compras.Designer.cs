@@ -39,14 +39,19 @@ namespace CapaVistaCompras
             this.moduloDeSeguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasInteligentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.txtusuario = new System.Windows.Forms.TextBox();
             this.bANCOSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.catalogosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.informesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.txtusuario = new System.Windows.Forms.TextBox();
+            this.movimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cuentaContableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cuentaBancariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tipoDeMovimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,14 +84,14 @@ namespace CapaVistaCompras
             // cerrarSesiónToolStripMenuItem
             // 
             this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
-            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
             this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -121,17 +126,11 @@ namespace CapaVistaCompras
             this.consultasInteligentesToolStripMenuItem.Text = "Consultas Inteligentes";
             this.consultasInteligentesToolStripMenuItem.Click += new System.EventHandler(this.consultasInteligentesToolStripMenuItem_Click);
             // 
-            // txtusuario
-            // 
-            this.txtusuario.Enabled = false;
-            this.txtusuario.Location = new System.Drawing.Point(532, 0);
-            this.txtusuario.Name = "txtusuario";
-            this.txtusuario.ReadOnly = true;
-            this.txtusuario.Size = new System.Drawing.Size(100, 20);
-            this.txtusuario.TabIndex = 2;
-            // 
             // bANCOSToolStripMenuItem
             // 
+            this.bANCOSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.movimientoToolStripMenuItem,
+            this.mantenimientosToolStripMenuItem});
             this.bANCOSToolStripMenuItem.Name = "bANCOSToolStripMenuItem";
             this.bANCOSToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.bANCOSToolStripMenuItem.Text = "BANCOS";
@@ -165,6 +164,52 @@ namespace CapaVistaCompras
             this.ayudasToolStripMenuItem.Name = "ayudasToolStripMenuItem";
             this.ayudasToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.ayudasToolStripMenuItem.Text = "Ayudas";
+            // 
+            // txtusuario
+            // 
+            this.txtusuario.Enabled = false;
+            this.txtusuario.Location = new System.Drawing.Point(532, 0);
+            this.txtusuario.Name = "txtusuario";
+            this.txtusuario.ReadOnly = true;
+            this.txtusuario.Size = new System.Drawing.Size(100, 20);
+            this.txtusuario.TabIndex = 2;
+            // 
+            // movimientoToolStripMenuItem
+            // 
+            this.movimientoToolStripMenuItem.Name = "movimientoToolStripMenuItem";
+            this.movimientoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.movimientoToolStripMenuItem.Text = "Movimiento";
+            // 
+            // mantenimientosToolStripMenuItem
+            // 
+            this.mantenimientosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cuentaContableToolStripMenuItem,
+            this.cuentaBancariaToolStripMenuItem,
+            this.tipoDeMovimientoToolStripMenuItem});
+            this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
+            this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mantenimientosToolStripMenuItem.Text = "Mantenimiento";
+            // 
+            // cuentaContableToolStripMenuItem
+            // 
+            this.cuentaContableToolStripMenuItem.Name = "cuentaContableToolStripMenuItem";
+            this.cuentaContableToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.cuentaContableToolStripMenuItem.Text = "Cuenta Contable";
+            this.cuentaContableToolStripMenuItem.Click += new System.EventHandler(this.cuentaContableToolStripMenuItem_Click);
+            // 
+            // cuentaBancariaToolStripMenuItem
+            // 
+            this.cuentaBancariaToolStripMenuItem.Name = "cuentaBancariaToolStripMenuItem";
+            this.cuentaBancariaToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.cuentaBancariaToolStripMenuItem.Text = "Cuenta Bancaria";
+            this.cuentaBancariaToolStripMenuItem.Click += new System.EventHandler(this.cuentaBancariaToolStripMenuItem_Click);
+            // 
+            // tipoDeMovimientoToolStripMenuItem
+            // 
+            this.tipoDeMovimientoToolStripMenuItem.Name = "tipoDeMovimientoToolStripMenuItem";
+            this.tipoDeMovimientoToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.tipoDeMovimientoToolStripMenuItem.Text = "Tipo de Movimiento";
+            this.tipoDeMovimientoToolStripMenuItem.Click += new System.EventHandler(this.tipoDeMovimientoToolStripMenuItem_Click);
             // 
             // Area_Compras
             // 
@@ -206,6 +251,11 @@ namespace CapaVistaCompras
         private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem informesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem movimientoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cuentaContableToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cuentaBancariaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tipoDeMovimientoToolStripMenuItem;
     }
 }
 

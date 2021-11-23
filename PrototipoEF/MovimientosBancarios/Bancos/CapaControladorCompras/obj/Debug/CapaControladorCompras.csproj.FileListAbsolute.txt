@@ -16,3 +16,12 @@ C:\Users\DELL\Desktop\material\mdi\AreaComprasyCxP\CapaControladorCompras\obj\De
 C:\Users\DELL\Desktop\material\mdi\AreaComprasyCxP\CapaControladorCompras\obj\Debug\CapaControladorCompras.csproj.CopyComplete
 C:\Users\DELL\Desktop\material\mdi\AreaComprasyCxP\CapaControladorCompras\obj\Debug\CapaControladorCompras.dll
 C:\Users\DELL\Desktop\material\mdi\AreaComprasyCxP\CapaControladorCompras\obj\Debug\CapaControladorCompras.pdb
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaControladorCompras\bin\Debug\CapaControladorCompras.dll
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaControladorCompras\bin\Debug\CapaControladorCompras.pdb
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaControladorCompras\bin\Debug\CapaModeloCompras.dll
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaControladorCompras\bin\Debug\CapaModeloCompras.pdb
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaControladorCompras\obj\Debug\CapaControladorCompras.csprojAssemblyReference.cache
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaControladorCompras\obj\Debug\CapaControladorCompras.csproj.CoreCompileInputs.cache
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaControladorCompras\obj\Debug\CapaControladorCompras.csproj.CopyComplete
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaControladorCompras\obj\Debug\CapaControladorCompras.dll
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaControladorCompras\obj\Debug\CapaControladorCompras.pdb

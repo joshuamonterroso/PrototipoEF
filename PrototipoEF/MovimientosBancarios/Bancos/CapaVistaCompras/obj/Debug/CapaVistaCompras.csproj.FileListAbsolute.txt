@@ -160,3 +160,12 @@ C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaV
 C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.csproj.CopyComplete
 C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.dll
 C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.pdb
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\bin\Debug\DLLnav.dll
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\bin\Debug\CapaControladorNav.dll
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\bin\Debug\CapaModeloNav.dll
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\bin\Debug\DLLnav.pdb
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\bin\Debug\CapaControladorNav.pdb
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\bin\Debug\CapaModeloNav.pdb
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.MantenimientoTipo2030.resources
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.MantenimientoConta2020.resources
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.MantenimientoBanco2025.resources

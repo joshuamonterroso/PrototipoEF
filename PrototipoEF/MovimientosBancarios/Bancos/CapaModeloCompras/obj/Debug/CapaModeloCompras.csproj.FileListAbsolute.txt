@@ -4,3 +4,9 @@ C:\Users\mgado\Desktop\ComprasyCxP\AreaComprasyCxP\CapaModeloCompras\obj\Debug\C
 C:\Users\mgado\Desktop\ComprasyCxP\AreaComprasyCxP\CapaModeloCompras\obj\Debug\CapaModeloCompras.csproj.CoreCompileInputs.cache
 C:\Users\mgado\Desktop\ComprasyCxP\AreaComprasyCxP\CapaModeloCompras\obj\Debug\CapaModeloCompras.dll
 C:\Users\mgado\Desktop\ComprasyCxP\AreaComprasyCxP\CapaModeloCompras\obj\Debug\CapaModeloCompras.pdb
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaModeloCompras\bin\Debug\CapaModeloCompras.dll
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaModeloCompras\bin\Debug\CapaModeloCompras.pdb
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaModeloCompras\obj\Debug\CapaModeloCompras.csprojAssemblyReference.cache
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaModeloCompras\obj\Debug\CapaModeloCompras.csproj.CoreCompileInputs.cache
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaModeloCompras\obj\Debug\CapaModeloCompras.dll
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaModeloCompras\obj\Debug\CapaModeloCompras.pdb

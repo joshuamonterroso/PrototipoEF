@@ -163,3 +163,9 @@ C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\BancosNET\Ar
 C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\BancosNET\AreaComprasyCxPNET\obj\Debug\AreaComprasyCxPNET.exe
 C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\BancosNET\AreaComprasyCxPNET\obj\Debug\AreaComprasyCxPNET.pdb
 C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\BancosNET\AreaComprasyCxPNET\bin\Debug\CapaVistaCompras.dll
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\BancosNET\AreaComprasyCxPNET\bin\Debug\DLLnav.dll
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\BancosNET\AreaComprasyCxPNET\bin\Debug\CapaControladorNav.dll
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\BancosNET\AreaComprasyCxPNET\bin\Debug\CapaModeloNav.dll
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\BancosNET\AreaComprasyCxPNET\bin\Debug\DLLnav.pdb
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\BancosNET\AreaComprasyCxPNET\bin\Debug\CapaControladorNav.pdb
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\BancosNET\AreaComprasyCxPNET\bin\Debug\CapaModeloNav.pdb
