@@ -169,3 +169,8 @@ C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaV
 C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.MantenimientoTipo2030.resources
 C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.MantenimientoConta2020.resources
 C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.MantenimientoBanco2025.resources
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.MovimientosBancarios2035.resources
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.reporteconta.resources
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.reportedebancos.resources
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.reportemovimiento.resources
+C:\Users\mgado\Desktop\PrototipoEF\PrototipoEF\MovimientosBancarios\Bancos\CapaVistaCompras\obj\Debug\CapaVistaCompras.reporteoperacion.resources

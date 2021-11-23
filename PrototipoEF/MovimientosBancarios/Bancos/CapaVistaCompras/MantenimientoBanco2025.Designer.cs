@@ -252,6 +252,7 @@ namespace CapaVistaCompras
             this.Controls.Add(this.navegador1);
             this.Name = "MantenimientoBanco2025";
             this.Text = "MantenimientoBanco2025";
+            this.Load += new System.EventHandler(this.MantenimientoBanco2025_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

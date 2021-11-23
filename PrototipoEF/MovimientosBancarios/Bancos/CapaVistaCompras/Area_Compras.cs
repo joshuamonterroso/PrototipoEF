@@ -102,5 +102,13 @@ namespace CapaVistaCompras
             formulario.funActualizarUsuario(txtusuario.Text);
 
         }
+
+        private void movimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MovimientosBancarios2035 formulario = new MovimientosBancarios2035();
+            formulario.MdiParent = this;
+            formulario.Show();
+            formulario.funActualizarUsuario(txtusuario.Text);
+        }
     }
 }
