@@ -77,5 +77,30 @@ namespace CapaVistaCompras
             formulario.Show();
         }
 
+        private void tipoDeMovimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenimientoTipo2030 formulario = new MantenimientoTipo2030();
+            formulario.MdiParent = this;
+            formulario.Show();
+            formulario.funActualizarUsuario(txtusuario.Text);
+        }
+
+        private void cuentaContableToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenimientoConta2020 formulario = new MantenimientoConta2020();
+            formulario.MdiParent = this;
+            formulario.Show();
+            formulario.funActualizarUsuario(txtusuario.Text);
+
+        }
+
+        private void cuentaBancariaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenimientoBanco2025 formulario = new MantenimientoBanco2025();
+            formulario.MdiParent = this;
+            formulario.Show();
+            formulario.funActualizarUsuario(txtusuario.Text);
+
+        }
     }
 }
