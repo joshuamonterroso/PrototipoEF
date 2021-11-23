@@ -31,6 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CapaControladorCompras">
       <HintPath>..\CapaControladorCompras\bin\Debug\CapaControladorCompras.dll</HintPath>
     </Reference>
@@ -43,12 +44,18 @@
     <Reference Include="CapaVistaSeguridadHSC">
       <HintPath>..\..\..\HotelSanCarlos\ProyectoHSC22021\Componentes\Seguridad\SeguridadHSC\CapaVista\bin\Debug\CapaVistaSeguridadHSC.dll</HintPath>
     </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="DLLnav">
       <HintPath>..\..\..\..\..\HotelSanCarlos\ProyectoHSC22021\Componentes\Navegador\DLLnav\DLLnav\bin\Debug\DLLnav.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -63,6 +70,18 @@
     </Compile>
     <Compile Include="Area_Compras.Designer.cs">
       <DependentUpon>Area_Compras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bancodereporte.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bancodereporte.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="contareporte.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>contareporte.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="MantenimientoBanco2025.cs">
       <SubType>Form</SubType>
@@ -82,11 +101,61 @@
     <Compile Include="MantenimientoTipo2030.Designer.cs">
       <DependentUpon>MantenimientoTipo2030.cs</DependentUpon>
     </Compile>
+    <Compile Include="movimientoreporte.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>movimientoreporte.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MovimientosBancarios2035.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovimientosBancarios2035.Designer.cs">
+      <DependentUpon>MovimientosBancarios2035.cs</DependentUpon>
+    </Compile>
+    <Compile Include="operacionreporte.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>operacionreporte.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reporteconta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reporteconta.Designer.cs">
+      <DependentUpon>reporteconta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportedebancos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportedebancos.Designer.cs">
+      <DependentUpon>reportedebancos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportemovimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportemovimiento.Designer.cs">
+      <DependentUpon>reportemovimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reporteoperacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reporteoperacion.Designer.cs">
+      <DependentUpon>reporteoperacion.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Area_Compras.resx">
       <DependentUpon>Area_Compras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bancodereporte.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>bancodereporte.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contareporte.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>contareporte.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="MantenimientoBanco2025.resx">
       <DependentUpon>MantenimientoBanco2025.cs</DependentUpon>
@@ -97,6 +166,32 @@
     <EmbeddedResource Include="MantenimientoTipo2030.resx">
       <DependentUpon>MantenimientoTipo2030.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="movimientoreporte.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>movimientoreporte.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovimientosBancarios2035.resx">
+      <DependentUpon>MovimientosBancarios2035.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="operacionreporte.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>operacionreporte.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reporteconta.resx">
+      <DependentUpon>reporteconta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportedebancos.resx">
+      <DependentUpon>reportedebancos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportemovimiento.resx">
+      <DependentUpon>reportemovimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reporteoperacion.resx">
+      <DependentUpon>reporteoperacion.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

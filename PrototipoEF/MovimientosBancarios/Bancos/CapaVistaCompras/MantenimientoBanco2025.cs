@@ -73,5 +73,10 @@ namespace CapaVistaCompras
         {
             navegador1.funComboTextboxVista(cmbbanco, txtbanco);
         }
+
+        private void MantenimientoBanco2025_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
